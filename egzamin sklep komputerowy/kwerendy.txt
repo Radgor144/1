@@ -1,0 +1,7 @@
+1: SELECT id, nazwa, opis, cena FROM podzespoly WHERE cena<1000
+
+2: SELECT podzespoly.nazwa, podzespoly.opis FROM podzespoly, producenci WHERE podzespoly.producenci_id = producenci.id and dostepnosc>0 and producenci.nazwa="Intel"
+
+3: SELECT podzespoly.nazwa FROM podzespoly, producenci WHERE podzespoly.nazwa = producenci.nazwa
+
+4: UPDATE producenci SET nazwa = PATRIOT WHERE producenci.id = 8

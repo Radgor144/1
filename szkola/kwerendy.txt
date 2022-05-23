@@ -1,0 +1,4 @@
+1: INSERT INTO `klasa` (`id`, `nazwa`) VALUES ('5', '3a');
+2: SELECT klasa.nazwa, AVG(Srednia_ocen) FROM klasa, uczen WHERE uczen.id_klasy = klasa.id GROUP BY nazwa;
+3: create user 'Dyrektor'@'localhost' identified by 'dyr_123'
+4: GRANT ALL PRIVILEGES ON `szkola`.* TO 'Dyrektor'@'localhost' WITH GRANT OPTION;

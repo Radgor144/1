@@ -1,0 +1,4 @@
+1: SELECT `nr_rejsu`, `kierunek`, `czas`, `status_lotu` FROM `przyloty` ORDER BY `czas` ASC
+2: SELECT COUNT(*) FROM `przyloty` WHERE `czas` BETWEEN '10:00' AND '10:59'
+3: SELECT nr_rejsu, samoloty.typ FROM `przyloty`, samoloty WHERE przyloty.samoloty_id = samoloty.id and kierunek="Warszawa"
+4: update odloty set `status_lotu`='opóźnienie 20 min' where `nr_rejsu`='LX5673'

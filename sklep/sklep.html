@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sklep muzyczny</title>
+    <link rel="stylesheet" href="muzyka.css">
+</head>
+<body>
+    <div id="baner">
+        <h1>SKLEP MUZYCZNY</h1>
+    </div>
+    <div id="lewy">
+        <h2>NASZA OFERTA</h2>
+        <ol>
+            <li>Instrumenty muzyczne</li>
+            <li>Sprzęt audio</li>
+            <li>Płyty CD</li>
+        </ol>
+    </div>
+    <div id="prawy">
+        <h2>FORMULARZ REJESTRACYJNY</h2>
+        <form action="formularz.php" method="POST">
+            <p><strong>Dane osobowe</strong></p><br>
+
+            <label for="imie">imie</label><br>
+            <input type="text" name="imie"><br>
+
+            <label for="nazwisko">nazwisko</label><br>
+            <input type="text" name="nazwisko"><br>
+
+            <label for="adres">adres</label><br>
+            <input type="text" name="adres"><br>
+
+            <label for="telefon">telefon</label><br>
+            <input type="text" name="telefon"><br>
+
+            <hr>
+
+            <p><strong>Dane logowania</strong></p><br>
+
+            <label for="">login</label><br>
+            <input type="text" name="login"><br>
+
+            <label for="haslo">haslo</label><br>
+            <input type="password" name="haslo"><br><br>
+
+            <input type="checkbox" checked>Akceptuję <a href="regulamin.txt" target="blank">regulamin </a> sklepu <br><br>
+            <input type=reset value="WYCZYŚĆ"/>
+            <input type="submit" value="Rejestruj">
+        </form>
+    </div>
+</body>
+</html>

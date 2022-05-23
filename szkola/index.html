@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Szkoła ponadgimnazjalna</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="baner">
+        <h1>Projekt strony internetowej szkoły 
+            ponadgimnazjalnej</h1>
+    </div>
+    <div class="lewy">
+        <table>
+            <tr>
+                <td>Treść zapytania</td>
+                <td width="405px">Zrzut ekranu</td>
+            </tr>
+            <tr>
+                <td>INSERT INTO `klasa` (`id`, `nazwa`) VALUES ('5', '3a');</td>
+                <td><img src="kwerenda.jpg" alt="kwerenda.jpg"></td>
+            </tr>
+            <tr>
+                <td>SELECT klasa.nazwa, AVG(Srednia_ocen) FROM klasa, uczen WHERE uczen.id_klasy = klasa.id GROUP BY nazwa;</td>
+                <td><img src="kwerenda4.jpg" alt="kwerenda4.jpg"></td>
+            </tr>
+            <tr>
+                <td>create user 'Dyrektor'@'localhost' identified by 'dyr_123'</td>
+                <td><img src="kwerenda.jpg" alt="kwerenda.jpg"></td>
+            </tr>
+            <tr>
+                <td>GRANT ALL PRIVILEGES ON `szkola`.* TO 'Dyrektor'@'localhost' WITH GRANT OPTION;</td>
+                <td><img src="kwerenda.jpg" alt="kwerenda.jpg"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="prawy">
+        <h2>Do pobrania</h2>
+        <ul>
+            <li><a href="zapytania.txt">zapytania SQL</a></li>
+            <li><a href="baza/szkola_nowa.sql">baza danych</a></li>
+        </ul>
+        <hr>
+        <h3>Wyznaczanie najniższej średniej</h3>
+        <ul>
+            <li>Polak <input type="text" id="liczba1"></li>
+            <li>Nowak <input type="text"id="liczba2"></li>
+            <li>Rysik <input type="text" id="liczba3"></li>
+        </ul>
+
+        <input type="button" id="przycisk" value="wyznacz">
+
+        <h3>Najniższa średnia:</h3>
+        <p id="wynik"></p>
+    </div>
+    <div class="stopka">
+        <h3>Stronę wykonał: JAA!!!</h3>
+    </div>
+
+    <script src="skrypt.js"></script>
+</body>
+</html>

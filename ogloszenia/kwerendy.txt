@@ -1,0 +1,4 @@
+kw1: INSERT INTO `uzytkownik` (`id`, `imie`, `nazwisko`, `telefon`, `email`) VALUES (NULL, 'Jolanta', 'Jasny', '600600600', 'jolanta@poczta.pl'); 
+kw2:SELECT `tytul`,`tresc`,`podkategoria` FROM `ogloszenie` WHERE `uzytkownik_id`=1 and kategoria=1
+kw3: create user 'jolanta'@'localhost' identified by 'jol1@';
+kw4:grant delete, SELECT on ogloszenie to 'jolanta'@'localhost'

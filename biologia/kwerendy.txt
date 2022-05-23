@@ -1,0 +1,4 @@
+1zapytanie: SELECT nazwisko, pesel FROM uczen;
+2zapytanie: SELECT imie, nazwisko FROM uczen WHERE id=1;
+3zapytanie: SELECT MAX(ocena) FROM ocena WHERE uczen_id=1 and przedmiot_id=4;
+4zapytanie: SELECT COUNT(ocena) FROM ocena WHERE uczen_id=1 and przedmiot_id=4;

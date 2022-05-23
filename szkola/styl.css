@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    font-family: arial;
+    color: white;
+}
+
+a{
+    color: yellow;
+}
+
+.baner, .stopka, .prawy{
+    background-color: #5957a1;
+}
+
+.lewy{
+    background-color:  #bbadcd;
+    width: 65%;
+    height: 450px;
+    float: left;
+    overflow: scroll;
+}
+
+.prawy{
+    width: 35%;
+    height: 450px;
+    float: left;
+}
+
+.baner, .stopka, .prawy{
+    text-align: center;
+}
+
+.baner{
+    padding: 10px;
+    height: 70px;
+}
+
+.stopka{
+    height: 50px;
+    clear: both;
+}
+
+hr{
+    border-color:yellow;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position:inside;
+}

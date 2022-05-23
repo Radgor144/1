@@ -1,0 +1,4 @@
+1 zapytanie: INSERT INTO `filmy` (`id`, `gatunki_id`, `rezyserzy_id`, `tytul`, `rok`, `ocena`) VALUES (NULL, '5', '', 'Suburbicon', '2017', '5');
+2 zapytanie: SELECT tytul, gatunki.nazwa FROM filmy, gatunki WHERE gatunki_id = gatunki.id and ocena = 6;
+3 zapytanie: SELECT `tytul`,`rok` FROM `filmy` WHERE ocena = 5 and gatunki_id = 3;
+4 zapytanie: CREATE TABLE `dane`.`aktorzy` ( `id` INT NOT NULL , `imie` VARCHAR(20) NOT NULL , `nazwisko` VARCHAR(20) NOT NULL ) ENGINE = InnoDB;

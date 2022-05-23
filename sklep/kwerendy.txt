@@ -1,0 +1,4 @@
+INSERT INTO uzytkownicy (imie, nazwisko, adres, telefon) VALUES ('Jan', 'Nowak', 'Warszawa, Kopernika 4', '608111222' );
+INSERT into konta (login, haslo) values ('JanNowak','qwerty');
+SELECT imie, nazwisko FROM uzytkownicy;
+SELECT adres FROM uzytkownicy where id=1;
