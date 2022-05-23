@@ -1,0 +1,39 @@
+body {
+	background-color:#ececec;
+	margin:0px;
+}
+.container {
+	width:1000px;
+	margin:auto;
+	margin-top:20px;
+	font-size:18px;
+}
+#div3{
+	height:200px;
+	width:200px;
+	background-color:red;
+	float:right;
+	
+}
+#div2 button{
+	height:100px;
+	width:100px;
+	margin-left:200px;
+	float:left;
+	
+}
+#pola{
+	float:left;
+}
+
+#liczba1, #liczba2, #liczba3{
+	float:left;
+	margin-left: 100px;
+}
+
+#blok {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 100px
+}

@@ -1,0 +1,70 @@
+body{
+    background-color: #ffffbf;
+    margin: 0px;
+    background-image: url(../zadanie-japonia/image/wisnia.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    
+}
+
+#container{
+    width: 80%;
+    height: 730px;
+    position: absolute;
+    bottom: 0px;
+    left: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#lewy{
+    width: 30%;
+    height: 100%;
+    background-color: #ff7f5f;
+    opacity: 0.4;
+    font-size: 40px;
+    text-align: center;
+}
+
+#lewy div{
+    position: relative;
+    top: 300px;
+}
+
+#prawy{
+    width: 70%;
+    height: 100%;
+    background: #ff7f5f;
+    opacity: 0.8;
+    color: wheat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    text-shadow: rgb(224, 204, 166) 15px 15px 8px;
+    position: relative;
+    top: -50px;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -50px;
+    text-indent: 20px;
+    font-family: sans-serif;
+}
+
+#obrazek {
+    background-image: url(../zadanie-japonia/image/japan.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 500px;
+    left: 100px;
+}

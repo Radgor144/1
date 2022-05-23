@@ -1,0 +1,101 @@
+body {
+    background-color: #0e3048;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    margin-top: 3px;
+}
+
+#pasek-gora {
+    width: 70%;
+    height: 30px;
+    background-color: #aeb2be;
+    margin-top: 10px;
+    margin: auto;
+}
+
+#baner {
+    display: flex;
+    justify-content: center;
+}
+
+#container2 {
+    background-color: #f3f3f5;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+#naglowek {
+    background-color: #aeb2be;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+#naglowek div {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #0e3048;
+}
+
+#glowna {
+    padding-left: 20px;
+}
+
+#container3 {
+    width: 100%;
+    height: 95%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 75% auto;
+    grid-template-rows: 50px 120px auto 30px;
+    column-gap: 10px;
+}
+
+#menu {
+    background-color: #0e3048;
+    color: #aeb2be;
+    font-size: 18px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 15px;
+}
+
+#lista {
+    background-color: #aeb2be;
+    font-size: 18px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+#tekst {
+    width: 100%;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 1/4;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 22px;
+    color: #0e3048;
+}
+
+footer {
+    width: 100%;
+    background-color: #aeb2be ;
+    grid-column: 1/4;
+    text-align: center;
+    font-weight: bold;
+    color: #0e3048;
+}
+
