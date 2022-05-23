@@ -1,0 +1,205 @@
+@font-face{
+font-family: Bebas;
+src:url(BebasNeue-Regular.ttf);
+}
+
+html,body{
+    margin:0;
+    padding:0;
+	height:100%;
+    font-family: Bebas;
+    font-size: 30px;
+    color: white;
+}
+
+.header {
+    background-image: url(pictures/sztanga2.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position-y: 40%;
+}
+
+.pasek{
+   width: 100%;
+   max-height: 50px;
+   display: flex;
+   align-items: center;
+
+
+}
+
+.pasek2{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.pasek3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 40px;
+    margin-right: 30px;
+}
+
+.home,.log{
+    color: yellow;
+}
+
+.home:hover, .about:hover, .services:hover, .contact:hover, .log:hover {
+    color: rgb(255, 0, 0);
+}
+
+.logo img{
+    width: 200px;
+    padding-top: 50px;
+}
+
+.opisy{
+    width: 25%;
+    min-height: 400px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 75px;
+    letter-spacing: 10px;
+    line-height: 70px;
+
+}
+
+h5{
+    margin-top: -45px;
+    color: rgb(236, 208, 44);
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.guzik{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+
+.tekst{
+    color: black;
+    font-size: 20px;
+    padding-top: 12px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+.strzalka{
+    background-color: rgb(209, 206, 44);
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.strzalka:hover{
+    background-color: rgb(148, 175, 31);
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.strzalka img {
+    padding-top: 15px;
+    width: 20px;
+}
+
+
+.socialmedia{
+    display: flex;
+    flex-direction:column;
+    margin-top: -150px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.451);
+    border: 2px solid grey;
+    min-width: 20px;
+    max-width: 20px;
+}
+
+.fb :hover , .ig :hover, .yt :hover{
+    height: 20px;
+}
+
+.boxs{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box1{
+    width: 45%;
+    min-height:100%;
+    background-color: rgb(114, 66, 66);
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.box2{
+    width: 55%;
+    min-height:100%;
+}
+
+.box2 img{
+    min-height: 100%;
+    width: 100%;
+}
+
+.box1 h1{
+    font-size: 50px;
+    width: 30%;
+    height: 25%;
+    margin-top: 70px;
+    word-spacing: 100px;
+}
+
+.pasek4{
+    background-color: grey;
+    width: 40%;
+    height: 1.5%;
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+
+.pasek5{
+    background-color: rgb(114, 66, 66);
+    position: relative;
+    width: 40%;
+    height: 80%;
+    float: right;
+}
+
+
+.box1 p{
+    font-size: 20px;
+    width: 50%;
+    height: 25%;
+    color: rgb(177, 177, 177);
+    position: relative;
+    left: 60px;
+}
+
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 2%;
+    font-size: 10px;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
