@@ -1,0 +1,39 @@
+body {
+    background-color: #333;
+    color: snow;
+}
+
+#czerwony {
+    float: left;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+
+
+#czarny {
+    float: left;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#zielony {
+    float: left;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#niebieski {
+    float: left;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
